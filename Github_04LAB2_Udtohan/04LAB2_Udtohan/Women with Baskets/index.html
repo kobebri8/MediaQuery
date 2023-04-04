@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leon Gallary</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <style>
+        .header {
+            text-align: center;
+        }
+        .videomaker {
+            margin-left: 34%;
+            margin-right: 34%;
+        }
+        table {
+          border: 2px solid black;
+          margin-left: 40%;
+          margin-right: 40%;
+        }
+        th {
+          font-size: 20px;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        td {
+          font-size: 20px;
+          font-family:  Arial, Helvetica, sans-serif;
+        }
+        /* For mobile phones: */
+        [class*="col-"] {
+        width: 100%;
+        }
+
+        @media screen and (min-width: 600px) {
+          /* For tablets: */
+          .col-s-1 {width: 8.33%;}
+          .col-s-2 {width: 16.66%;}
+          .col-s-3 {width: 25%;}
+          .col-s-4 {width: 33.33%;}
+          .col-s-5 {width: 41.66%;}
+          .col-s-6 {width: 50%;}
+          .col-s-7 {width: 58.33%;}
+          .col-s-8 {width: 66.66%;}
+          .col-s-9 {width: 75%;}
+          .col-s-10 {width: 83.33%;}
+          .col-s-11 {width: 91.66%;}
+          .col-s-12 {width: 100%;}
+        }
+        @media screen and (min-width: 768px) {
+         /* For desktop: */
+         .col-1 {width: 8.33%;}
+         .col-2 {width: 16.66%;}
+         .col-3 {width: 25%;}
+         .col-4 {width: 33.33%;}
+         .col-5 {width: 41.66%;}
+         .col-6 {width: 50%;}
+         .col-7 {width: 58.33%;}
+         .col-8 {width: 66.66%;}
+         .col-9 {width: 75%;}
+         .col-10 {width: 83.33%;}
+         .col-11 {width: 91.66%;}
+         .col-12 {width: 100%;}
+    }
+        /* smartphones */
+        @media (max-width: 500px) {
+            body {
+                background-color: violet;
+            }
+            .header {
+                background-color: #2b42aa;
+                grid-template-columns: auto;
+            }  
+            .footer-col {
+              width: 50%;
+              margin-bottom: 30px;
+            }
+            .footer {
+              background-color: blueviolet;
+            }
+            
+        }
+        /* tablets */
+        @media (min-width: 501px) and (max-width: 768px) {
+            body {
+                background-color: gray;
+            }
+            .header {
+                background-color: greenyellow;
+                grid-template-columns: auto;
+            }  
+            .footer-col {
+              width: 100%;
+        }
+            .footer {
+              background-color: #25e91e;
+        }
+            
+        }
+        /* Normal */
+        @media (min-width: 769px) and (max-width: 1099px) {
+            body {
+                background-color: yellow;
+            }
+            .header {
+                background-color: deeppink;
+                grid-template-columns: auto;
+            }
+            .footer-col {
+              width: 100%;
+        }
+            .footer {
+              background-color: burlywood;
+        }
+           
+        }
+        @media (min-width: 1100px){
+            body {
+                background-color: darkmagenta;
+            }
+            .header {
+                background-color: green;
+                grid-template-columns: auto;
+            }  
+            .footer-col {
+               width: 100%;
+            }
+            .footer {
+               background-color: goldenrod;
+            }
+           
+        }
+        @media screen and (max-width: 1000px) {
+            .src {
+                grid-template-columns: auto;
+            }
+            .table, th, td {
+                grid-template-columns: auto;
+            }
+        }
+    </style>
+
+    <div class="header">
+        <h1>Anita Magsaysay-Ho(1914 - 2012)</h1>
+        <h2>Womens and Baskets, Fish and Crab</h2>
+    </div>
+
+    <video class="videomaker" width="500" height="400" controls>
+        <source src="Anita.mp4" type="video/mp4">
+    </video>
+    <table>
+        <tr>
+            <th> <font color="green">First Name:</font></th> <td>Anita</td>
+        </tr>
+        <tr>
+            <th> <font color="green">Last Name:</font></th> <td>Magsaysay-Ho</td>
+        </tr>
+        <tr>
+            <th> <font color="green">Gender:</font></th> <td>Female</td>
+        </tr>
+        <tr>
+            <th> <font color="green">Occupation:</font></th> <td>Painter</td>
+        </tr>
+        <tr>
+            <th> <font color="green">Nationality:</font></th> <td>Filipino</td>
+        </tr>
+        <tr>
+            <th> <font color="green">Spouse:</font></th> <td>Robert Ho(Married 1948-2012)</td>
+        </tr>
+        <tr>
+            <th> <font color="green">Children:</font></th> <td>5</td>
+        </tr>
+        <tr>
+            <th> <font color="green">Born:</font></th> <td>May 25, 1914</td>
+        </tr>
+        <tr>
+            <th> <font color="green">Died:</font></th> <td>May 5, 2012</td>
+        </tr>
+    </table>
+    <div class="col-6 col-s-9">
+        <h2><font color="orange">ABOUT THE WORK:</font></h2>
+        <p><font color="red">
+            Women with Baskets, Fish, and Crab was among the favorite paintings of the artist, Anita Magsaysay-Ho, displayed prominently in her living room before finding a home with one of her oldest friends. The piece melds together a celebration of Filipino craft, the strength of Filipina women, and the talent and technique of one of the country’s most celebrated painters. The baskets depicted invoke the industriousness and dedication involved in basket weaving—a practice Anita considered among the most beautiful of Filipino handicrafts. A similar level of mastery and precision was needed to portray these objects. Anita later related that she found the process challenging, with careful work needed to convey the curvature and to capture the interplay of shadows and of light. The original owner of the piece was Mrs. Charito Panganiban Melchor, a childhood neighbor of Anita’s whose friendship with the artist would span decades. It was ironically the storm clouds of war that brought these two young women together. In 1941, when the Japanese Imperial Army took over the residence of Dr. Lauro H. Panganiban on Agno Street in Malate, his family was forced to move to a house on Villaruel Street in Pasay. As fate would have it, their new home was just down the street from where Anita lived with her parents. Anita had just returned from her studies at the avant-garde art school, the Cranbrook Academy, in Bloomsfield Hills, Michigan, directed by Eliel Saarinen and where Lazslo Moholy-Nagy of the Bauhaus taught. She would have been brimming with ideas and excited to share them. Charito was barely in her teens in 1941; and she recalls walking a block or so with her sister, Pacita, to the Magsaysay house several times a week for their painting lessons with Anita. It would be the start of a 70-year long friendship. Anita’s family was a branch of the enterprising Yangco clan. Don Luis Yangco was dubbed the “King of Manila Bay and Pasig” for the number of boats and barges he owned that plied the coast of Luzon. His only son, Don Teodoro Rafael Yangco, was Anita’s uncle. She would wed Robert Ho, whose family had shipping interests in Asia in 1947. The following year, her father, Ambrosio, would take up the helm of the family business and found Magsaysay Lines with Robert Ho. Charito, on the other hand, came from the equally prominent Mendoza family of Sta. Maria, Bulacan. Her father, Dr. Lauro Panganiban, served for 13 years as the Dean of College of Medicine of Far Eastern University (FEU), and is widely considered as one of the fathers of medical education in the Philippines. The Magsaysays were great family friends of the Mendozas, and Anita would paint an outstanding portrait of Charito’s grandmother, Doña Maria de Leon Mendoza, in 1946. Charito would wed Alejandro Melchor Jr., who would become a trusted technocrat and cabinet official, serving God and country under nine Philippine presidents. Alex’s father was a distinguished scientist, engineer and professor, after whom Melchor Hall at the University of the Philippines was named. He led the committee that established the Philippine Military Academy, and its main Academic Building was named Melchor Hall in his honor. In 1944, he served in the wartime cabinets-in-exile of Presidents Manuel Quezon and Sergio Osmena. The many intersections of the women’s lives made the bonds of friendship even stronger. Anita’s favorite cousin was Ramon Magsaysay (‘RM’) who would ascend the heights to become President of the Philippines. Charito’s husband, Alex Melchor, on the other hand, had served under RM when the latter was still Undersecretary of National Defense and later when he became President. Alex was instrumental in harnessing the armed forces to operationalize RM’s ‘Peace Through Development’ program in the 1950s. Ramon Magsaysay, Jr., would also become a close friend of the couple Alex and Charito. The two couples would find themselves on the same social circuit, dining often in each other’s houses in Manila and HongKong. One evening, Charito recalls, Anita took them on a private tour of her collection—beginning with the stunning Women with Baskets, Fish, and Crab, newly hung and taking centerstage in her living room. Charito says she could not take her eyes off the painting. She loved the strong, dignified, serene Filipina women portrayed in the piece. She asked if Anita would ever consider parting with it. Anita paused and hesitated. It was one of her personal favorites. She finally agreed as a special favor to one of her greatest friends, Charito. It was a common thread of spirituality that would most unite the two sisters-in-arms. Charito recalls that Anita was a deeply spiritual person. She saw in the painting the embodiment of a profound moral and spiritual philosophy that she and Anita shared. “What Anita’s and my clan shared was the prayerfulness of our forebears.” Charito vividly recalls that each day, Doña Maria would gather her children and grandchildren to pray the rosary on their knees before the statue of the Birhen Maria. While Anita’s uncle, a renowned philanthropist, Don Teodoro Locsin, would ingrain in her the desire “to be an instrument of God.” Magsaysay-Ho’s ennoblement of the Filipino woman through her beloved paintings is certainly God’s work, emphasized Charito. Through her many paintings of women winnowing and working in the fields, by the seashore casting their nets, picking fruit and flowers, she has created a lasting testament to the strength and beauty of the Filipina. The painting is therefore not only an artistic masterpiece—commemorating Filipino craftsmanship and the quiet, steady strength of the Filipina—but it is a celebration of the life-long friendship of two Filipinas, Anita and Charito.</font></p>
+            
+    </div>
+   
+    <style>
+        .container{
+        max-width: 1150px;
+        margin:auto;
+    }
+        .row{
+        display: flex;
+        flex-wrap: wrap;
+        }
+        ul{
+        list-style: none;
+        }
+        .footer{
+          padding: 70px 0;
+        }
+        .footer-col{
+         width: 25%;
+         padding: 0 15px;
+        }
+        .footer-col h3 {
+           font-size: 25px;
+           text-transform: capitalize;
+        }
+        .footer-col .word {
+           margin-left: 30%;
+           margin-right: 30%;
+        }
+        .footer-col .btn {
+        margin-left: 35%;
+        margin-right: 35%;
+        background-image: linear-gradient(red, yellow, green);
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+        background-size: 200%;
+       padding: 20px;
+        }
+        .footer-col h4{
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+        }
+        .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left:0;
+        bottom: -10px;
+        background-color: #25e91e;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+        }
+        .footer-col ul li:not(:last-child){
+        margin-bottom: 10px;
+        }
+        .footer-col ul li a{
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+        }
+        .footer-col ul li a:hover{
+        color: #ffffff;
+        padding-left: 8px;
+        }
+        .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(255,255,255,0.2);
+        margin:0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition: all 0.5s ease;
+        }
+        .footer-col .social-links a:hover{
+        color: #3825a1;
+        background-color: #ffffff;
+        }
+    </style>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3 class="word"> <font color="white">Please click the Image Here! </font></h3>
+                    <a href="imagejpeg.html"><button class="btn"> Image Grid </button></a>
+                </div>
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                         <li><a href="#">about us</a></li>
+                         <li><a href="#">our services</a></li>
+                         <li><a href="#">privacy policy</a></li>
+                         <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                      <ul>
+                         <a href="#"><i class="fab fa-facebook-f"></i></a>
+                         <a href="#"><i class="fab fa-twitter"></i></a>
+                         <a href="#"><i class="fab fa-instagram"></i></a>
+                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                         <a href="#"><i class="fab fa-tiktok"></i></a>
+                      </ul>
+                    </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
